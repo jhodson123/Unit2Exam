@@ -21,9 +21,6 @@ public class Student {
 
     public boolean isHonors(){
 
-        if(GPA >= 90)
-            return true;
-        else
-            return false;
+        return honors;
     }
 }
